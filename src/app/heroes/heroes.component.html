@@ -1,3 +1,152 @@
-<p>
-  heroes works!
-</p>
+
+<div class="page-header">
+  <h2>Mis Heroes</h2>
+  <hr>
+</div>
+<div class="row">
+  <ul class="heroes">
+    <li><a>
+      <span class="badge">11</span> Spiderman
+    </a></li>
+    <li><a>
+      <span class="badge">12</span> Batman
+    </a></li>
+    <li><a>
+      <span class="badge">13</span> Superman
+    </a></li>
+    <li><a>
+      <span class="badge">14</span> Macri
+    </a></li>
+  </ul>
+</div>
+
+ <div class="page-header">
+    <h2>List groups</h2>
+    <hr>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+        <ul class="list-group heroes-bs">
+            <li class="list-group-item">Spiderman</li>
+            <li class="list-group-item active">Batman</li>
+            <li class="list-group-item">Superman</li>
+            <li class="list-group-item">Macri</li>
+            <li class="list-group-item">Tinelli</li>
+        </ul>
+    </div>
+    <div class="col-sm-4">
+        <ul class="list-group heroes-bs">
+            <li class="list-group-item"><span>11</span> - Spiderman</li>
+            <li class="list-group-item active"><span>12</span> - Batman</li>
+            <li class="list-group-item"><span class="list-group-item-heading">13</span> - Superman</li>
+            <li class="list-group-item"><span class="badge">14</span> Macri</li>
+            <li class="list-group-item"><span>15</span> - Tinelli</li>
+        </ul>
+    </div>
+    <div class="col-sm-4">
+    <div class="list-group">
+        <a href="javascript:void(0)" class="list-group-item active">
+            <h4 class="list-group-item-heading">Telefonica</h4>
+            <p class="list-group-item-text">Telefonica de Argentina S.A. 30-12886973-2</p>
+        </a>
+        <a href="javascript:void(0)" class="list-group-item">
+          <h4 class="list-group-item-heading">Camuzzi</h4>
+          <p class="list-group-item-text">Camuzzi Gas Pampeana S.A. 30-21161932-6</p>
+      </a>
+        <a href="javascript:void(0)" class="list-group-item">
+          <h4 class="list-group-item-heading">Telefonica</h4>
+          <p class="list-group-item-text">Segurplus S.R.L. 30-28554973-1</p>
+      </a>
+    </div>
+  </div>
+</div>  
+
+<div class="page-header">
+  <h2>Tablas</h2>
+  <hr>
+</div>
+
+  <div class="row">
+      <div class="col-lg-8">
+          <div class="card card-default">
+              <div class="card-header">
+                  <i class="fa fa-shopping-cart fa-fw"></i>Proveedores
+              </div>
+              <table class="card-body table table-hover">
+                  <thead>
+                  <tr>
+                      <th>#</th>
+                      <th>Nombre</th>
+                      <th>Razon Social</th>
+                      <th>Mail</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <th scope="row">11</th>
+                      <td>Batman</td>
+                      <td>Bruno Diaz</td>
+                      <td>info@telefo.com.ar</td>
+                  </tr>
+                  <tr>
+                      <th scope="row">12</th>
+                      <td>Superman</td>
+                      <td>Clark Kent</td>
+                      <td>info@ks.com.ar</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">13</th>
+                    <td>Telefonica</td>
+                    <td><span class="text-muted "><em>Telefonica de Argentina S.A.</em></span></td>
+                    <td>info@telefo.com.ar</td>
+                </tr>
+                <tr>
+                    <th scope="row">14</th>
+                    <td>Camuzzi</td>
+                    <td><span class="text-muted "><em>Camuzzi Gas Pampeana S.A.</em></span></td>
+                    <td>info@ks.com.ar</td>
+                </tr>
+                </tbody>
+              </table>
+
+          </div>
+      </div>
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-4">
+          <div class="card card-default mb-3">
+              <div class="card-header">
+                  <i class="fa fa-bell fa-fw"></i> Notificaciones
+              </div>
+              <!-- /.card-header -->
+              <div class="card-body">
+                <div class="list-group">
+                    <a href="#" class="list-group-item clearfix d-block">
+                        <i class="fa fa-comment fa-fw"></i> Llamada
+                        <span class="float-right text-muted small"><em>4 minutos atras</em></span>
+                    </a>
+                    <a href="#" class="list-group-item clearfix d-block">
+                        <i class="fa fa-envelope fa-fw"></i> Mensage enviado
+                        <span class="float-right text-muted small"><em>27 minutos atras</em></span>
+                    </a>
+                    <a href="#" class="list-group-item clearfix d-block">
+                        <i class="fa fa-upload fa-fw"></i> Inbox
+                        <span class="float-right text-muted small"><em>11 mensajes</em></span>
+                    </a>
+                    <a href="#" class="list-group-item clearfix d-block active">
+                        <i class="fa fa-shopping-cart fa-fw"></i> Compras (9)
+                        <span class="float-right text-muted small"><em>9:49 AM</em></span>
+                    </a>
+                    <a href="#" class="list-group-item clearfix d-block">
+                        <i class="fa fa-money fa-fw"></i> Ventas (16)
+                        <span class="float-right text-muted small"><em>Ayer</em></span>
+                    </a>
+                </div>
+                <!-- /.list-group -->
+                <a href="#" class="btn btn-default btn-block">Ver Todas las Alertas</a>
+            </div>
+            <!-- /.card-body -->
+          </div>
+
+      </div>
+      <!-- /.col-lg-4 -->
+  </div>
